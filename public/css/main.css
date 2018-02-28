@@ -1,0 +1,83 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: rgba(170, 170, 121, 0.6);
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.content { 
+   flex: 1 0 auto; 
+}
+
+#banner {
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+  background: rgb(181,189,200); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 */
+}
+
+
+#mainNav {
+    background: rgb(78, 135, 161);
+}
+
+#skillsSection {
+    border: 1px solid green;
+    text-align: center;
+}
+
+#skillsSection h1,#skillsSection h2,#skillsSection h3,#skillsSection h4,#skillsSection h5,#skillsSection h6 {
+    text-decoration: underline;
+}
+
+#skillsRow {
+    border: 1px solid black;
+}
+
+#languages {
+    background: violet;
+}
+
+.skillHeadings {
+    border: 1px dashed red;
+    text-align: center;
+}
+
+
+.footer {
+    /* position: fixed;
+    bottom: 0; */
+    
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 8px 0px 8px 0px;
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+}
+
+.footer img {
+    max-height: 100px;
+    padding: 0px;
+}
+
+.img-border {
+    border: 1px dashed black;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+#minePage {
+    background: rgba(141, 143, 143, 0.877);
+    
+}
